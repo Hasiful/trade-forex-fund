@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--mainColor);
+  font-weight: 700;
+  font-family: 'Secular One',
+    sans-serif;
+}
+
+p {
+  color: var(--textColor);
+}
+
+:root {
+  --headerBg: #292929;
+  --mainColor: #FDAA01;
+  --bgColor: rgba(255, 255, 255, 0.04);
+  --btnLinear: linear-gradient(#ffc233 0%, #ff860c 100%);
+  --textColor: #FFFFFF;
+  --transition: 0.3s all linear;
+  --bgoverlay: #c2c2c2;
+}
+
+.mobile_toggle {
+  position: relative;
+  display: block;
+  z-index: 999;
+}
+
+.mobile_toggle ul {
+  width: 30px;
+  height: 18px;
+  position: relative;
+}
+
+.mobile_toggle ul li {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: var(--mainColor);
+  transition: var(--transition);
+}
+
+.mobile_toggle ul li:first-child {
+  top: 0px;
+  left: 0px;
+}
+
+.mobile_toggle ul li:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0px;
+}
+
+.mobile_toggle ul li:last-child {
+  bottom: 0;
+  left: 0px;
+}
+
+.section_padding {
+  padding: 30px 0px;
+}
+
+.sticky {
+  top: 0px;
+  transition: var(--transition);
+  background-color: var(--headerBg);
+  box-shadow: 0px 8px 18px hsl(0deg 0% 0% / 10%);
+}
+
+.input_control {
+  width: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.global_btn {
+  position: relative;
+}
+
+.global_btn a {
+  padding: 14px 38px;
+  border-radius: 24px;
+  display: inline-block;
+  background: var(--btnLinear);
+  color: var(--textColor);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* section title */
+
+.section_title {
+  max-width: 760px;
+  width: 100%;
+  margin: 0px auto 30px;
+  text-align: center;
+}
+
+.section_title_headinginner {
+  margin-bottom: 40px;
+}
+
+.section_title_heading {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 400;
+}
+
+.section_title_text {
+  font-size: 18px;
+  line-height: 27px;
+}

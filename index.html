@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trade Forex Fund</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <!-- 
+    ================================
+        header section start
+    ================================
+    -->
+
+    <header class="header_section" id="myHeader">
+        <div class="container">
+            <!-- header wrapper -->
+            <div class="header_wrapper">
+                <!-- header logo -->
+                <a href="./index.html" class="header_logo">
+                    <img src="assets/image/logo.png" alt="" />
+                </a>
+
+                <!-- header nav -->
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./about.html">about us</a></li>
+                        <li><a href="./ourplan.html">plan</a></li>
+
+                        <li><a href="./affilate.html">affilate</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+
+                    </ul>
+                </nav>
+
+                <!-- hedare btn -->
+                <div class="header_btn_wrapper">
+                    <!-- btn item -->
+                    <div class="global_btn">
+                        <a href="./signin.html">Log in</a>
+                    </div>
+
+                    <!-- btn item -->
+                    <div class="global_btn">
+                        <a href="./signup.html">Registration</a>
+                    </div>
+                </div>
+
+                <!-- mobile toggle -->
+                <div class="mobile_toggle" id="activeToggle">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+    ================================
+        header section end
+    ================================
+    -->
+
+    <!-- 
+    ================================
+        banner section end
+    ================================
+    -->
+
+    <div class="banner_section">
+        <div class="container">
+            <!-- banner content -->
+            <div class="banner_content">
+                <!-- banner heading -->
+                <h1 class="banner_heading">Investment is the <span class="banner_heading_inner">big shot
+                        from here</span> to eternity
+                </h1>
+                <!-- banner text -->
+                <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour, or randomised words which don't look even
+                    slightly believable. </p>
+
+                <!-- banner button -->
+                <div class="banner_button_wrapper">
+                    <!-- btn item -->
+                    <div class="global_btn">
+                        <a href="./signin.html">Log in</a>
+                    </div>
+
+                    <!-- btn item -->
+                    <div class="global_btn">
+                        <a href="./signup.html">Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 
+    ================================
+        banner section end
+    ================================
+    -->
+    <!-- 
+    ================================
+        online calculator
+    ================================
+    -->
+
+    <div class="online_calculator">
+
+
+        <div class="calculator_content calculator_content_banner">
+            <!-- title -->
+            <h1 class="claculator_content_title">Online Calculatior</h1>
+            <div class="calculator_wrapper">
+
+                <!-- item -->
+                <div class="calculator_input_inner">
+                    <!-- title -->
+                    <label for="" class="calInput_title">Our Plan</label>
+                    <!-- select plan -->
+                    <select class="calInput_control" id="getInt">
+                        <option value="5">5% Daily for 30 Days</option>
+                        <option value="107">107% After 1 Days</option>
+                        <option value="0.3">0.30% Hourly For 24 Hours</option>
+                    </select>
+
+                </div>
+
+                <!-- item -->
+                <div class="calculator_input_inner">
+                    <label for="" class="calInput_title">Amount</label>
+                    <input type="number" class="calInput_control" id="amount" placeholder="Enter Amount">
+                </div>
+
+                <!-- item -->
+                <div class="calculator_input_inner">
+                    <label for="" class="calInput_title">Daily Profitt</label>
+                    <input type="text" class="caloutput_inner calInput_control" id="dailyProfit" disabled="" value="00">
+                </div>
+
+                <!-- item -->
+                <div class="calculator_input_inner">
+                    <label for="" class="calInput_title">Total Profit</label>
+                    <input type="text" class="caloutput_inner calInput_control" disabled="" value="00" id="totalProfit">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    ================================
+        online calculator end
+    ================================
+    -->
+
+
+    <!-- 
+    ================================
+        aboutus section start
+    ================================
+    -->
+
+    <div class="aboutus_section">
+        <div class="container">
+            <!-- wrapper -->
+            <div class="aboutus_section_wrapper">
+                <!-- content -->
+                <div class="aboutus_section_content">
+                    <!-- title -->
+                    <div class="aboutus_content_title">
+                        <h1 class="aboutus_title_inner">About us</h1>
+                    </div>
+                    <!-- text -->
+                    <div class="about_content_textInner">
+                        <p class="about_content_text">
+                            "But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                            pain was born and I will give you a complete account of the system, and expound the actual
+                            teachings of the great explorer of the truth, the master-builder of human happiness. No one
+                            rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who
+                            do not know how to pursue pleasure rationally encounter consequences.
+                        </p>
+                    </div>
+
+                    <!-- about button -->
+
+                    <div class="about_content_btn">
+                        <div class="global_btn">
+                            <a href="$">About Us</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    ================================
+        aboutus section end
+    ================================
+    -->
+
+    <!-- 
+    ================================
+        plan section start
+    ================================
+    -->
+
+    <div class="plan_section section_padding">
+        <div class="container">
+            <!-- section title -->
+            <div class="section_title">
+                <!-- heading -->
+                <div class="section_title_headinginner">
+                    <h1 class="section_title_heading">Our Plans</h1>
+                </div>
+                <!-- section title text -->
+                <div class="section_title_textinner">
+                    <p class="section_title_text">There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration in some form, by injected humour, or randomised words
+                        which don't look even slightly believable. </p>
+                </div>
+            </div>
+            <!-- plan wrapper -->
+            <div class="plan_wrapper">
+
+                <!-- plan item -->
+                <div class="plan_item">
+                    <!-- content -->
+                    <div class="plan_item_wrapper">
+                        <!-- thumbnail -->
+                        <div class="plan_item_thumbnail">
+                            <img src="assets/image/plan/diamond (1).png" alt="">
+                        </div>
+                        <!-- body -->
+                        <div class="plan_item_content">
+                            <h1 class="plan_item_title">Daily</h1>
+                            <p class="plan_item_descreption">5% Daily For 30 Days</p>
+                            <p class="plan_item_investamount">Invest Amount: $20 - $100000</p>
+                            <p class="plan_item_text">Principal Amount Included
+                                <br> In profit</p>
+                            <p class="plan_item_widraw">Withdraw Type: Manual</p>
+                        </div>
+                        <!-- plan btn -->
+                        <div class="plan_item_btn">
+                            <div class="global_btn">
+                                <a href="#">Invest Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- plan item -->
+                <div class="plan_item">
+                    <!-- content -->
+                    <div class="plan_item_wrapper">
+                        <!-- thumbnail -->
+                        <div class="plan_item_thumbnail">
+                            <img src="assets/image/plan/diamond.png" alt="">
+                        </div>
+                        <!-- body -->
+                        <div class="plan_item_content">
+                            <h1 class="plan_item_title">After</h1>
+                            <p class="plan_item_descreption">107% After 1 Days</p>
+                            <p class="plan_item_investamount">Invest Amount: $100 - $100000</p>
+                            <p class="plan_item_text">Principal Amount Included
+                                <br> In profit</p>
+                            <p class="plan_item_widraw">Withdraw Type: Manual</p>
+                        </div>
+                        <!-- plan btn -->
+                        <div class="plan_item_btn">
+                            <div class="global_btn">
+                                <a href="#">Invest Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- plan item -->
+                <div class="plan_item">
+                    <!-- content -->
+                    <div class="plan_item_wrapper">
+                        <!-- thumbnail -->
+                        <div class="plan_item_thumbnail">
+                            <img src="assets/image/plan/diamond (2).png" alt="">
+                        </div>
+                        <!-- body -->
+                        <div class="plan_item_content">
+                            <h1 class="plan_item_title">Hourly</h1>
+                            <p class="plan_item_descreption">0.30% Hourly For 24 Hours</p>
+                            <p class="plan_item_investamount">Invest Amount: $50 - $100000</p>
+                            <p class="plan_item_text">Principal Amount Included
+                                <br> In profit</p>
+                            <p class="plan_item_widraw">Withdraw Type: Manual</p>
+                        </div>
+                        <!-- plan btn -->
+                        <div class="plan_item_btn">
+                            <div class="global_btn">
+                                <a href="#">Invest Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    ================================
+        plan section end
+    ================================
+    -->
+
+    <!-- double section bg -->
+    <div class="double_sction">
+
+        <!-- statistics section -->
+        <div class="statistics_section section_padding">
+            <div class="container">
+                <!-- section title -->
+                <div class="section_title">
+                    <!-- heading -->
+                    <div class="section_title_headinginner">
+                        <h1 class="section_title_heading">Our Statistics</h1>
+                    </div>
+                    <!-- section title text -->
+                    <div class="section_title_textinner">
+                        <p class="section_title_text">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour, or randomised
+                            words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+                <!-- wrapper -->
+                <div class="Statistics_wrapper">
+
+                    <!-- item -->
+                    <div class="Statistics_item">
+                        <div class="Statistics_item_icon">
+                            <img src="assets/image/statistics/clock.png" alt="">
+                        </div>
+                        <h3 class="statistics_item_heading">Start Date</h3>
+                        <p class="statistics_item_subText">26 June, 2022</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="Statistics_item">
+                        <div class="Statistics_item_icon">
+                            <img src="assets/image/statistics/clock (1).png" alt="">
+                        </div>
+                        <h3 class="statistics_item_heading">Running days</h3>
+                        <p class="statistics_item_subText">122 days</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="Statistics_item">
+                        <div class="Statistics_item_icon">
+                            <img src="assets/image/statistics/deposit.png" alt="">
+                        </div>
+                        <h3 class="statistics_item_heading">Total Deposit</h3>
+                        <p class="statistics_item_subText">255M</p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="Statistics_item">
+                        <div class="Statistics_item_icon">
+                            <img src="assets/image/statistics/withdraw.png" alt="">
+                        </div>
+                        <h3 class="statistics_item_heading">Total withdraw</h3>
+                        <p class="statistics_item_subText">145M</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- widraw history -->
+        <div class="widraw_history section_padding">
+            <div class="container">
+                <!-- section title -->
+                <div class="section_title">
+                    <!-- heading -->
+                    <div class="section_title_headinginner">
+                        <h1 class="section_title_heading">Withdrawal History</h1>
+                    </div>
+                    <!-- section title text -->
+                    <div class="section_title_textinner">
+                        <p class="section_title_text">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour, or randomised
+                            words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+
+                <!-- widraw_history wrapper -->
+                <div class="widraw_history_wrapper">
+
+                    <!-- widraw content -->
+                    <div class="widraw_content">
+                        <!-- widraw content title -->
+                        <h3 class="widraw_content_title">Last 10 Deposit</h3>
+                        <!-- inner slider -->
+                        <div class="widraw_content_slider">
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- content end -->
+                    <!-- widraw content -->
+                    <div class="widraw_content">
+                        <!-- widraw content title -->
+                        <h3 class="widraw_content_title">Last 10 Deposit</h3>
+                        <!-- inner slider -->
+                        <div class="widraw_content_slider">
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                            <!-- item -->
+                            <div class="widraw_item">
+                                <!-- image -->
+                                <div class="widraw_item_thumbnail">
+                                    <img src="assets/image/Bitcoin_Cash.png" alt="">
+                                </div>
+                                <!-- widraw item name -->
+                                <p class="widraw_person_name">M. Hanneman</p>
+                                <p class="widraw_deposit_amount">M. Hanneman</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- content end -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- affilate section -->
+    <div class="affilate_section section_padding">
+        <div class="container">
+            <!-- section title -->
+            <div class="section_title">
+                <!-- heading -->
+                <div class="section_title_headinginner">
+                    <h1 class="section_title_heading">Affiliate Program</h1>
+                </div>
+                <!-- section title text -->
+                <div class="section_title_textinner">
+                    <p class="section_title_text">There are many variations of passages of Lorem Ipsum available, but
+                        the majority have suffered alteration in some form, by injected humour, or randomised words
+                        which don't look even slightly believable.</p>
+                </div>
+            </div>
+
+            <!-- affilate wrapper -->
+            <div class="affiliate_wrapper">
+                <!-- iamage -->
+                <div class="affilate_thumbanail">
+                    <img src="assets/image/Path 18.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="affilate_title">
+                    <h2 class="affiliate_title_heading">Referral Commission</h2>
+                </div>
+
+                <!-- affilate btn -->
+                <div class="affilate_btn">
+                    <div class="global_btn">
+                        <a href="#">Invest Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- double section bg -->
+    <div class="double_sction">
+        <!-- payment method -->
+        <div class="payment_mthod section_padding">
+            <div class="container">
+                <!-- section title -->
+                <div class="section_title">
+                    <!-- heading -->
+                    <div class="section_title_headinginner">
+                        <h1 class="section_title_heading">Payment Method</h1>
+                    </div>
+                    <!-- section title text -->
+                    <div class="section_title_textinner">
+                        <p class="section_title_text">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. </p>
+                    </div>
+                </div>
+
+                <!-- payment item wrapper -->
+                <div class="payment_item_wrapper">
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/Bitcoin_Cash.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/bnb-bnb-logo.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/download.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/Perfect_Money_Logo_full.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/Ripple_logo.svg.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="payment_item">
+                        <!-- image -->
+                        <div class="payment_image">
+                            <img src="assets/image/payment/TRON-logo-EN-vertical.svg.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- payment item wrapper-->
+            </div>
+        </div>
+
+        <!-- benifits section -->
+        <div class="benifits_section section_padding">
+            <div class="container">
+                <!-- section title -->
+                <div class="section_title">
+                    <!-- heading -->
+                    <div class="section_title_headinginner">
+                        <h1 class="section_title_heading">Our Benefits</h1>
+                    </div>
+                    <!-- section title text -->
+                    <div class="section_title_textinner">
+                        <p class="section_title_text">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour, or
+                            randomised words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+
+                <!-- our benifits wrapper -->
+                <div class="ourbenfits_wrapper">
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/community.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">Official Community</pv>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/return-on-investment.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">Investment Facilities</pv>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/customer-service.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">24/7 Live Support</pv>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/server.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">CPU Dedicated
+                                Server</pv>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/shield.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">Ddos and AWS
+                                Protection</pv>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="benifits_item">
+                        <!-- image -->
+                        <div class="benifits_item_thumbnail">
+                            <img src="assets/image/benifts/team.png" alt="">
+                        </div>
+                        <!-- benifts item title -->
+                        <div class="benfits_item_titleinner">
+                            <pv class="benifits_item_title">Professional Team</pv>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="footer_section section_padding">
+        <div class="container">
+            <!-- footer logo -->
+            <a href="#" class="footer_logo">
+                <img src="assets/image/footerlogo.png" alt="">
+            </a>
+
+            <!-- footer wrapper -->
+
+            <div class="footer_wraper">
+                <!-- footer newsletter -->
+                <div class="footer_news">
+                    <!-- text -->
+                    <p class="footer_news_text">
+                        The Trusted Profit Fund is an evolution among all the investment markets for providing
+                        trust-worthy profits to our members.
+                    </p>
+
+                    <!-- newsletter form -->
+                    <div class="newsletter_form">
+                        <!-- title -->
+                        <p class="newsletter_form_title">Get your special offers</p>
+
+                        <!-- newsletter_form inner-->
+                        <div class="newsletter_form_inner">
+                            <!-- input -->
+                            <div class="newsletter_form_input">
+                                <input type="text" class="input_control input_control_newsletter"
+                                    placeholder="Enter your email">
+                            </div>
+                            <!-- subscribe btn -->
+                            <div class="newsletyter_subscribe">
+                                <a href="#">Subcribe</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- footer social -->
+
+                    <div class="footer_social">
+
+                        <p class="news_letter_title">Get your special offers</p>
+                        <!--  -->
+
+                        <ul>
+                            <li><a href="#" target="blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="blank"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="#" target="blank"><i class="fa-brands fa-telegram"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- footer nav -->
+                <div class="footer_nav">
+                    <!-- title -->
+                    <h2 class="footer_nav_title">Useful Link</h2>
+                    <!-- footer nav list -->
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">plan</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">affilate</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+
+                <!-- footer nav -->
+                <div class="footer_nav">
+                    <!-- title -->
+                    <h2 class="footer_nav_title">Legal</h2>
+                    <!-- footer nav list -->
+                    <ul>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Copyright information</a></li>
+                    </ul>
+                    <!-- legal certificet -->
+                    <div class="uk_certificket">
+                        <h2 class="footer_nav_title">Certificate</h2>
+                        <!-- image -->
+                        <div class="uk_certificket_image">
+                            <img src="assets/image/ukcertificket.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer information -->
+
+                <div class="company_information">
+                    <!-- company wrapper -->
+                    <div class="company_information_wrapper">
+                        <!-- title -->
+                        <h2 class="footer_nav_title">Company information</h2>
+                        <!-- information text -->
+                        <p class="information_text">
+                            The Trusted Profit Fund is established to satisfy our members with security and successful
+                            profit. We accept all the e-currencies and provide 24/7 live support to our members with a
+                            more hefty security system.
+                        </p>
+                    </div>
+
+                    <!-- company wrapper -->
+                    <div class="company_information_wrapper">
+                        <!-- title -->
+                        <h2 class="footer_nav_title">Company Address</h2>
+                        <!-- information text -->
+                        <p class="information_text">
+                            25 Half Moon Street, London, England, W1J 7BG
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+
+
+    <!-- bootstrap cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- js link -->
+    <script src="assets/js/apps.js"></script>
+    <!-- js link mouseover -->
+    <script src="assets/js/mousebn.js"></script>
+
+</body>
+
+</html>
